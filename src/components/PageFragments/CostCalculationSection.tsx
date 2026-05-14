@@ -306,7 +306,7 @@ const CostCalculationSection = () => {
                   >
                     terms & conditions
                   </span>{" "}
-                  of Warespire Innovations
+                  of Digital Vista Limited
                 </span>
               </label>
             </div>
