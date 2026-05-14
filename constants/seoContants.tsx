@@ -4,8 +4,8 @@ import { Metadata } from "next";
 export const SITE_NAME = "Digital Vista Limited"; // Update with actual company name
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://warespire-innovations-limited.com"; // Update with actual URL
-export const TWITTER_HANDLE = "@@digitalvista"; // Update with actual Twitter handle
+  "https://Digital-Vista-Limited.com"; // Update with actual URL
+export const TWITTER_HANDLE = "@digitalvista"; // Update with actual Twitter handle
 export const SITE_EMAIL = "contact@digitalvista.com";
 interface SEOConfig {
 	title: string;
