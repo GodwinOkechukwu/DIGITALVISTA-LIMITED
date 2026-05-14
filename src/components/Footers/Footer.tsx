@@ -164,7 +164,7 @@ const Footer = () => {
                     key={linkIndex}
                     href={link.href}
                     onClick={link.function}
-                    className="text-white text-sm leading-[1.3] hover:text-primary-100 transition-[.3]"
+                    className="text-white text-sm leading-[1.3] hover:text-[#B040C7] transition-[.3]"
                   >
                     {link.label}
                   </Link>

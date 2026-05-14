@@ -1,12 +1,12 @@
 import { Metadata } from "next";
 
 // 1. Core Configuration Constants
-export const SITE_NAME = "DIGITALVISTA LIMITED";
+export const SITE_NAME = "Digital Vista Limited"; // Update with actual company name
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
   "https://warespire-innovations-limited.com"; // Update with actual URL
-export const TWITTER_HANDLE = "@warespireinnovations";
-
+export const TWITTER_HANDLE = "@@digitalvista"; // Update with actual Twitter handle
+export const SITE_EMAIL = "contact@digitalvista.com";
 interface SEOConfig {
 	title: string;
 	description: string;
@@ -22,7 +22,7 @@ export const SEODATA: Record<string, SEOConfig> = {
 		description:
 			"Insightcore Technology Limited provides cutting-edge software development, AI integration, and digital transformation strategies to scale modern enterprises.",
 		keywords: [
-			"Warespire Digital",
+			"Digital Vista Limited Digital",
 			"Software Development Nigeria",
 			"Digital Transformation",
 			"AI Solutions for Business",
@@ -35,7 +35,7 @@ export const SEODATA: Record<string, SEOConfig> = {
 	home: {
 		title: `${SITE_NAME} | Leading Digital Solutions & Tech Excellence`,
 		description:
-			"Innovate and grow with Warespire. We build high-performance digital products, from mobile apps to enterprise AI systems, tailored to your business needs.",
+			"Innovate and grow with Digital Vista Limited. We build high-performance digital products, from mobile apps to enterprise AI systems, tailored to your business needs.",
 		keywords: [
 			"Mobile App Development",
 			"Enterprise Software",
@@ -83,19 +83,19 @@ export const SEODATA: Record<string, SEOConfig> = {
 	login: {
 		title: `Client Portal Login | ${SITE_NAME}`,
 		description:
-			"Access your Warespire client dashboard to track project progress, manage subscriptions, and collaborate with your dev team.",
+			"Access your Digital Vista Limited client dashboard to track project progress, manage subscriptions, and collaborate with your dev team.",
 		keywords: [
 			"Client login",
 			"Project tracking portal",
-			"Warespire dashboard access",
+			"Digital Vista Limited dashboard access",
 		],
 	},
 	register: {
 		title: `Partner with Us | Join ${SITE_NAME}`,
 		description:
-			"Create an account to start your project journey with warespire innovations and access premium tech resources.",
+			"Create an account to start your project journey with Digital Vista Limited innovations and access premium tech resources.",
 		keywords: [
-			"Get started with Warespire",
+			"Get started with Digital Vista Limited",
 			"Project onboarding",
 			"Digital partnership",
 		],

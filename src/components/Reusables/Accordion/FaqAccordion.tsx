@@ -55,7 +55,7 @@ const FaqAccordionItem: React.FC<FaqAccordionItemProps> = ({
 const faqItems: FaqAccordionItemProps[] = [
   {
     id: 1,
-    title: "How does the Warespire Innovations importation process work?",
+    title: "How does the Digital Vista Limited importation process work?",
     description:
       "We operate a seamless two-phase system: First, you pay for the cost of the goods to initiate procurement in China/Overseas. Once your cargo arrives in Nigeria, a second invoice is generated for shipping and customs clearing fees.",
   },
@@ -82,7 +82,7 @@ const faqItems: FaqAccordionItemProps[] = [
     id: 5,
     title: "How do I verify my manual bank transfer?",
     description:
-      "After making a transfer to the Warespire Innovations corporate account, simply upload your transaction receipt and Session ID/Reference via the 'Verify Payment' button on your order page for instant admin reconciliation.",
+      "After making a transfer to the Digital Vista Limited corporate account, simply upload your transaction receipt and Session ID/Reference via the 'Verify Payment' button on your order page for instant admin reconciliation.",
   },
 
   {
@@ -95,13 +95,13 @@ const faqItems: FaqAccordionItemProps[] = [
     id: 7,
     title: "Are my imports covered by a warranty?",
     description:
-      "Yes. All electronic and mechanical products procured through Warespire Innovations carry a standard manufacturer’s warranty, which we help you facilitate in the event of a technical issue.",
+      "Yes. All electronic and mechanical products procured through Digital Vista Limited carry a standard manufacturer’s warranty, which we help you facilitate in the event of a technical issue.",
   },
   {
     id: 8,
     title: "Is there a benefit to paying off my balance early?",
     description:
-      "Yes, Warespire Innovations rewards financial discipline. Customers who complete their payments ahead of schedule may be eligible for discounts on future shipping fees or interest-free credit extensions.",
+      "Yes, Digital Vista Limited rewards financial discipline. Customers who complete their payments ahead of schedule may be eligible for discounts on future shipping fees or interest-free credit extensions.",
   },
   {
     id: 9,
